@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-static -o
+OUT=test
+
+install[
+    sudo cp xlang.h /usr/include
+		w "Now, you can use 'include <xlang.h>'"
+
+clean[
+    sudo rm /usr/include/xlang.h
+		w "Succesifully removed xlang from /usr/include"
+
+test[
+    $CC test.c $CFLAGS $OUT

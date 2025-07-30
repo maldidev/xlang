@@ -8,11 +8,15 @@
 #define scanl  scanf
 #define pch_10     putchar(10)
 
+#define funct int
+
 #define opendef struct
 #define cunion union
 
+#define S_t size_t
+
 #define mlloc  malloc
-//#define pif free
+#define xfree free
 
 #define Sbyte
 #define Skbyte *1024
